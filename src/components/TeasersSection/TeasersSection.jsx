@@ -12,7 +12,18 @@ const TeasersSection = () => {
     showWelcome: true,
   };
 
-  const videos = ["https://www.youtube.com/embed/4mBO9gceg4M"];
+  const videos = [
+    "https://www.youtube.com/embed/Bz2eJMu5HW4",
+    "https://www.youtube.com/embed/TuXl9ZgCCSw",
+    "https://www.youtube.com/embed/8LJ27mxh_Ks",
+    "https://www.youtube.com/embed/59J-up7f2mg",
+    "https://www.youtube.com/embed/WLKmXiJd64o",
+    "https://www.youtube.com/embed/Wei4Jtd_OKk",
+    "https://www.youtube.com/embed/RZgsWZ8QFCo",
+    "https://www.youtube.com/embed/xrJAJCjk02U",
+    "https://www.youtube.com/embed/l7r52Jk_Tb8",
+    "https://www.youtube.com/embed/pI-yf2PrSDM",
+  ];
 
   return (
     <>
@@ -21,12 +32,12 @@ const TeasersSection = () => {
         <h2 className="teasers-h2">Teasers</h2>
 
         <p className="teasers-description">
-          Every couple has a story — raw, beautiful, and uniquely their own. Our
-          films are crafted to be more than just memories; they are timeless
-          cinematic experiences that stir emotions and bring your most cherished
-          moments back to life. With a deep sense of storytelling, artistic
-          vision, and emotion, we create wedding teasers that linger in your
-          heart long after the day has passed.
+          Every couple has a unique story — raw, beautiful, and deeply personal.
+          We don’t just capture moments; we craft timeless cinematic films that
+          evoke emotion and preserve the essence of your day. With a strong
+          focus on storytelling, artistic vision, and heartfelt emotion, our
+          wedding teasers are designed to stay with you — not just as memories,
+          but as powerful experiences you’ll feel again and again.
         </p>
 
         {videos.length === 0 ? (
@@ -49,7 +60,7 @@ const TeasersSection = () => {
 
         <div className="youtube-icon">
           <a
-            href="https://www.youtube.com/@livyoungphotography"
+            href="https://www.youtube.com/@storiesbyhariventapalli6627"
             target="_blank"
             rel="noopener noreferrer"
           >

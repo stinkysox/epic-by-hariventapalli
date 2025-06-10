@@ -1,6 +1,5 @@
 .teasers-section {
   background-color: black;
-  padding: 3rem 1rem;
   color: white;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -8,6 +7,7 @@
 
 .teasers-h2 {
   font-size: 2rem;
+  padding-top: 4rem;
 }
 
 .video-grid {
@@ -19,13 +19,11 @@
 }
 
 .teasers-description {
-  max-width: 800px;
-  margin: 0 auto 2rem;
   text-align: center;
   font-size: 1.1rem;
   line-height: 1.6;
-  margin-top: 40px;
   color: white;
+  padding: 2rem;
 }
 
 .video-container {

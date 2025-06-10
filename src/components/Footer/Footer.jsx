@@ -53,7 +53,7 @@ const Footer = () => {
       </div>
 
       <p className="footer-copyright">
-        © 2025 Stories by Hari Ventapalli · All Rights Reserved
+        © 2025 Epic by Hari Ventapalli · All Rights Reserved
       </p>
     </footer>
   );

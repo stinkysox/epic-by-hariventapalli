@@ -62,9 +62,9 @@ const OurServices = () => {
           Where every <span>picture</span> <br /> tells a story
         </h2>
         <p className="services-description">
-          Livyoung Photography is versatile and dedicated to capturing every
-          kind of event—be it weddings, baby showers, birthdays, or fashion
-          shoots—with unmatched professionalism and creative flair.
+          Epic By Hari Ventapalli Photography is versatile and dedicated to
+          capturing every kind of event—be it weddings, baby showers, birthdays,
+          or fashion shoots—with unmatched professionalism and creative flair.
         </p>
 
         <div className="services-grid">
@@ -95,7 +95,7 @@ const OurServices = () => {
           transition={{ delay: 0.2 }}
         >
           <a
-            href="https://wa.me/917799099943"
+            href="https://wa.me/9493078753"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-icon whatsapp"
@@ -104,7 +104,7 @@ const OurServices = () => {
             <FaWhatsapp size={24} />
           </a>
           <a
-            href="https://www.instagram.com/livyoungphotography"
+            href="https://www.instagram.com/hariventapalli/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-icon instagram"

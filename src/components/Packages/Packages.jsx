@@ -405,7 +405,7 @@ const Packages = () => {
           transition={{ delay: 0.2 }}
         >
           <a
-            href="https://wa.me/917799099943"
+            href="https://wa.me/9493078753"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-icon whatsapp"
@@ -414,7 +414,7 @@ const Packages = () => {
             <FaWhatsapp size={24} />
           </a>
           <a
-            href="https://www.instagram.com/livyoungphotography"
+            href="https://www.instagram.com/hariventapalli/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-icon instagram"

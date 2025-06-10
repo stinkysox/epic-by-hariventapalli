@@ -1,11 +1,11 @@
 .footer-container {
   background-color: #0e1132;
   text-align: center;
-  padding: 3rem 1.5rem;
   color: white;
   font-family: "Playfair Display", serif;
   margin-top: 60px;
-  border-top: 1px solid #e0dcd5;
+  padding: 3rem;
+  border-top: 1px;
 }
 
 .footer-title {

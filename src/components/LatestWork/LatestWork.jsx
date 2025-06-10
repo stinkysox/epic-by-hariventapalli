@@ -231,11 +231,11 @@ const LatestWork = () => {
       <div className="latestwork-container" id="latestwork">
         <h1>Latest Work</h1>
         <p className="intro-text">
-          "At <strong>LivYoung Photography</strong>, we specialize in capturing
+          <strong>Epic by Hari Ventapalli</strong>, we specialize in capturing
           authentic, emotion-filled moments that last a lifetime. Whether it’s a
           wedding, corporate event, maternity shoot, or personal portrait
           session, our experienced team ensures each frame reflects the essence
-          of your story with unmatched creativity and professionalism".
+          of your story with unmatched creativity and professionalism.
         </p>
         <div className="categories-container">
           {categories.map((category) => (
@@ -315,7 +315,7 @@ const LatestWork = () => {
           transition={{ delay: 0.2 }}
         >
           <a
-            href="https://wa.me/917799099943"
+            href="https://wa.me/9493078753"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-icon whatsapp"
@@ -324,7 +324,7 @@ const LatestWork = () => {
             <FaWhatsapp size={24} />
           </a>
           <a
-            href="https://www.instagram.com/livyoungphotography"
+            href="https://www.instagram.com/hariventapalli/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-icon instagram"

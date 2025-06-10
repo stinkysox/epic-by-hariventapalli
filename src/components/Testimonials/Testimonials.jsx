@@ -8,66 +8,57 @@ import { FaStar } from "react-icons/fa";
 
 const testimonials = [
   {
-    name: "Ananya Ramesh",
-    role: "Bride",
+    name: "Sowmya Reddy",
     quote:
-      "LivYoung beautifully captured every ritual of our Tamil wedding. The moments feel alive in every picture!",
+      "Epic by Hari Ventapalli captured every ritual of our Telugu wedding with such beauty. The mangalasnanam and jeelakarra bellam moments are etched forever!",
   },
   {
-    name: "Karthik Iyer",
-    role: "Classical Dancer",
+    name: "Ravi Teja",
     quote:
-      "The essence of Bharatanatyam was portrayed with such grace through LivYoung’s lens. Truly stunning work!",
+      "Their frames spoke the language of rhythm and grace. Hari Ventapalli truly honored the spirit of my performance!",
   },
   {
-    name: "Revathi Nair",
-    role: "Mother",
+    name: "Rajeshwari Devi",
     quote:
-      "Our baby’s annaprashan was captured so wonderfully. These photos are now precious memories for life.",
+      "The cradle ceremony for our grandson was so naturally and beautifully shot. Every moment feels priceless, thanks to Epic by Hari Ventapalli.",
   },
   {
-    name: "Ajay Varma",
-    role: "Groom",
+    name: "Pradeep Kumar",
     quote:
-      "From the haldi to the reception, every frame was vibrant and full of emotion. Highly recommended!",
+      "From pellikuthuru to reception, every emotion was captured so honestly. Epic by Hari Ventapalli made our memories come alive.",
   },
   {
-    name: "Meera Krishnan",
-    role: "Fashion Blogger",
+    name: "Sandhya Manohar",
     quote:
-      "Working with LivYoung was effortless. They brings out the best angles and moods in every shoot!",
+      "Working with Hari Ventapalli was smooth and fun. He understood my vision and brought out stunning frames!",
   },
   {
-    name: "Dr. Rohini Shankar",
-    role: "Mother of the Bride",
+    name: "Dr. Padmaja Rao",
     quote:
-      "The candid moments of my daughter’s wedding made me emotional. Thank you, LivYoung, for your magical touch.",
+      "I got teary-eyed seeing my daughter’s wedding pictures. Every candid shot felt like a painting — all thanks to Hari Ventapalli.",
   },
   {
-    name: "Siddharth Raghavan",
-    role: "Musician",
+    name: "Harsha Vardhan",
     quote:
-      "They captured the soul of our Carnatic concert without interrupting the flow — incredible attention to detail.",
+      "During our Carnatic ensemble at Vizag, Epic by Hari Ventapalli was invisible yet everywhere. So much soul in every photo.",
   },
   {
-    name: "Lakshmi Balakrishnan",
-    role: "Event Planner",
+    name: "Bhavani Lakshman",
     quote:
-      "LivYoung has an eye for culture and emotion. Every frame tells a story — our clients love her work.",
+      "He knows how to bring out the heart of Telugu traditions in his work. Our clients always ask for Epic by Hari Ventapalli!",
   },
   {
-    name: "Deepa Ravi",
-    role: "Pregnancy Shoot Client",
+    name: "Divya Sree",
     quote:
-      "My maternity shoot was serene and beautiful. LivYoung made me feel comfortable and radiant!",
+      "My maternity shoot by the Godavari felt dreamy. Hari Ventapalli made the whole process so comfortable and elegant.",
   },
   {
-    name: "Vishnu Suresh",
-    role: "Father",
+    name: "Srikanth Raju",
     quote:
-      "Our son's naming ceremony was captured perfectly. Every smile, every tear — all preserved with such care.",
+      "Our daughter’s naamkaranam was captured so well — even the small glances and smiles were preserved beautifully by Epic by Hari Ventapalli.",
   },
 ];
+
 const cardVariants = {
   hidden: { opacity: 0, y: 40 },
   visible: (i) => ({
@@ -105,7 +96,7 @@ const Testimonials = () => {
             </p>
 
             <motion.img
-              src="https://i.postimg.cc/wMBHqHP1/Beige-Minimalist-Initial-Font-Floral-Agency-Logo-pdf-page-0001.jpg"
+              src="https://i.postimg.cc/NjVgmQD1/Whats-App-Image-2025-06-08-at-7-19-24-PM.jpg"
               alt="Animated Logo"
               className="animated-logo"
               animate={{ rotate: [0, 10, -10, 10, -10, 0] }}

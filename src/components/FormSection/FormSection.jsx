@@ -7,7 +7,7 @@ const FormSection = () => {
   const formWelcomePackage = {
     backgroundImage: "https://i.postimg.cc/jjMYFTZq/final-college.jpg",
     title: "Connect with Us",
-    subtitle: "@livyoungphotography",
+    subtitle: "@Epic By Hari Ventapalli",
     showWelcome: true,
   };
   const [formData, setFormData] = useState({
@@ -42,7 +42,7 @@ I'm ${formData.fullName}.
 Excited to connect with you!`;
 
     const encodedText = encodeURIComponent(text);
-    window.open(`https://wa.me/7799099943?text=${encodedText}`, "_blank");
+    window.open(`https://wa.me/+919493078753?text=${encodedText}`, "_blank");
   };
 
   return (
