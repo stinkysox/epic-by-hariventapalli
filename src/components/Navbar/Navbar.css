@@ -10,6 +10,7 @@
   z-index: 1000;
   padding: 10px;
   display: flex;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
   color: white;
@@ -29,10 +30,8 @@
 
 /* Logo image */
 .logo-img {
-  height: 80px;
-  width: 80px;
-  object-fit: cover;
-  border-radius: 50%;
+  height: 60px;
+  border-radius: 14px;
 }
 
 /* Menu Button (Hamburger & Close) */
@@ -105,6 +104,10 @@
   display: inline-block;
   text-align: center;
   font-family: inherit;
+}
+
+.nav-title {
+  font-size: 14px;
 }
 
 .menu-link-btn:hover,

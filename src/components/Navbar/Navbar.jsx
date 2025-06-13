@@ -88,13 +88,13 @@ const Navbar = ({ welcomeConfig }) => {
       <header className={`navbar ${scrolled ? "scrolled" : ""}`} role="banner">
         <div className="navbar-logo">
           <img
-            src="https://i.postimg.cc/P5zq0tsc/Whats-App-Image-2025-06-08-at-7-19-24-PM.jpg"
+            src="https://i.postimg.cc/qRXtf392/Whats-App-Image-2025-06-08-at-7-19-2-PM.jpg"
             alt="Epic By Hari Ventapalli"
             className="logo-img"
           />
         </div>
 
-        <p>Epic By Hari Ventapalli</p>
+        <p className="nav-title">Epic By Hari Ventapalli</p>
 
         {!isOpen && (
           <button

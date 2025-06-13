@@ -96,7 +96,7 @@ const Testimonials = () => {
             </p>
 
             <motion.img
-              src="https://i.postimg.cc/NjVgmQD1/Whats-App-Image-2025-06-08-at-7-19-24-PM.jpg"
+              src="https://i.postimg.cc/qRXtf392/Whats-App-Image-2025-06-08-at-7-19-2-PM.jpg"
               alt="Animated Logo"
               className="animated-logo"
               animate={{ rotate: [0, 10, -10, 10, -10, 0] }}
