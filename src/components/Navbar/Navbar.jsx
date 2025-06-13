@@ -25,8 +25,7 @@ const Navbar = ({ welcomeConfig }) => {
 
   // Default welcome configuration
   const defaultWelcomeConfig = {
-    backgroundImage:
-      "https://i.pinimg.com/736x/cc/ad/32/ccad32362b224d1351d2063ee1fa224d.jpg", // Default background (or you can set a default image)
+    backgroundImage: "https://i.postimg.cc/x8RMfnQc/1.jpg", // Default background (or you can set a default image)
     title: "We're So Happy You're Here!",
     subtitle: "WELCOME",
     showWelcome: true,

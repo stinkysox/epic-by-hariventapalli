@@ -9,13 +9,11 @@ import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 const services = [
   {
     title: "Wedding Photography",
-    image:
-      "https://i.pinimg.com/736x/f7/59/1e/f7591ef2ba6eb343b1c2e5ae97c95fb9.jpg",
+    image: "https://i.postimg.cc/KjwkvzVc/2000.jpg",
   },
   {
     title: "Pre-wedding Photography",
-    image:
-      "https://i.pinimg.com/736x/9e/91/eb/9e91eb85f896212dccaf39f0682c985c.jpg",
+    image: "https://i.postimg.cc/bYTt2YXv/3days-copy-copy.jpg",
   },
   {
     title: "Fashion Photography",
@@ -24,13 +22,11 @@ const services = [
   },
   {
     title: "Baby Shoot",
-    image:
-      "https://i.pinimg.com/736x/85/b1/3c/85b13cdef3b70de0cea616861788f9d9.jpg",
+    image: "https://i.postimg.cc/sxNHJt6H/1995.jpg",
   },
   {
     title: "Maternity Shoot",
-    image:
-      "https://i.pinimg.com/736x/85/f1/8c/85f18c46a568927c85024bf31b9079ba.jpg",
+    image: "https://i.postimg.cc/JhL6K3x8/29.jpg",
   },
   {
     title: "Birthday Shoot",
@@ -44,7 +40,7 @@ const OurServices = () => {
   const [zoomedIndex, setZoomedIndex] = useState(null);
 
   const outServiceswelcome = {
-    backgroundImage: "https://i.postimg.cc/3NpLHPD6/IMG-2138.jpg",
+    backgroundImage: "https://i.postimg.cc/HWyTfBz1/19.jpg",
     title: "Our Services",
     subtitle: "",
     showWelcome: true,

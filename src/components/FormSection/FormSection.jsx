@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 
 const FormSection = () => {
   const formWelcomePackage = {
-    backgroundImage: "https://i.postimg.cc/jjMYFTZq/final-college.jpg",
+    backgroundImage: "https://i.postimg.cc/cHWvr2XY/6.jpg",
     title: "Connect with Us",
     subtitle: "@Epic By Hari Ventapalli",
     showWelcome: true,

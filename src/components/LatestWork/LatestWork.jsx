@@ -6,6 +6,71 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
 const allImages = [
+  // Prewedding
+  {
+    imageUrl: "https://i.postimg.cc/yY8vDrbw/DSC09066.jpg",
+    category: "Pre-wedding",
+  },
+  {
+    imageUrl: "https://i.postimg.cc/c4kTwBq6/DSC08686.jpg",
+    category: "Pre-wedding",
+  },
+  {
+    imageUrl: "https://i.postimg.cc/GmBKQTrK/DSC08235.jpg",
+    category: "Pre-wedding",
+  },
+  {
+    imageUrl: "https://i.postimg.cc/rF7xqnXG/DSC03104.jpg",
+    category: "Pre-wedding",
+  },
+  {
+    imageUrl: "https://i.postimg.cc/bYTt2YXv/3days-copy-copy.jpg",
+    category: "Pre-wedding",
+  },
+  {
+    imageUrl: "https://i.postimg.cc/c4f5357h/11.jpg",
+    category: "Pre-wedding",
+  },
+  {
+    imageUrl: "https://i.postimg.cc/pdHjFmdp/DSC02209.jpg",
+    category: "Pre-wedding",
+  },
+  {
+    imageUrl: "https://i.postimg.cc/5tSCqfHp/DSC03026.jpg",
+    category: "Pre-wedding",
+  },
+
+  // Wedding
+  {
+    imageUrl: "https://i.postimg.cc/KjwkvzVc/2000.jpg",
+    category: "Wedding",
+  },
+  {
+    imageUrl:
+      "https://i.pinimg.com/736x/0e/99/48/0e9948e8b4f8190b56188541bc5c6824.jpg",
+    category: "Wedding",
+  },
+  {
+    imageUrl:
+      "https://i.pinimg.com/736x/2c/79/49/2c7949bb2d7c00a4bb6e3864e92431c4.jpg",
+    category: "Wedding",
+  },
+  {
+    imageUrl:
+      "https://i.pinimg.com/736x/40/1d/fd/401dfddc2f315f193c93b60689c668f0.jpg",
+    category: "Wedding",
+  },
+  {
+    imageUrl:
+      "https://i.pinimg.com/736x/e0/88/7c/e0887c3480cfc11cd908584abef5f12e.jpg",
+    category: "Wedding",
+  },
+  {
+    imageUrl:
+      "https://i.pinimg.com/736x/2f/93/f8/2f93f855f5824049f80d3b5c60647f13.jpg",
+    category: "Wedding",
+  },
+
   {
     imageUrl:
       "https://i.pinimg.com/736x/46/7e/f4/467ef4c644737b5630ba03d492fcdefc.jpg",
@@ -36,68 +101,73 @@ const allImages = [
       "https://i.pinimg.com/736x/85/04/ef/8504efb48321608ff7454103b839ff43.jpg",
     category: "Engagement",
   },
-  // Baby Shoot
+  // Baby Shoot and Maternity
   {
-    imageUrl:
-      "https://i.pinimg.com/736x/5a/87/af/5a87af322162d541f74d7a762fc98543.jpg",
-    category: "Baby Shoot",
+    imageUrl: "https://i.postimg.cc/xjy4JmTb/DSC09991-2.jpg",
+    category: "Baby Shoot and Maternity",
   },
   {
-    imageUrl:
-      "https://i.pinimg.com/736x/28/47/d6/2847d640a6f7a3eb98244e98e0a171b3.jpg",
-    category: "Baby Shoot",
+    imageUrl: "https://i.postimg.cc/NFJFCMY7/8.jpg",
+    category: "Baby Shoot and Maternity",
   },
   {
-    imageUrl:
-      "https://i.pinimg.com/736x/5a/87/af/5a87af322162d541f74d7a762fc98543.jpg",
-    category: "Baby Shoot",
+    imageUrl: "https://i.postimg.cc/05fV2qcY/DSC09968-copy.jpg",
+    category: "Baby Shoot and Maternity",
   },
   {
-    imageUrl:
-      "https://i.pinimg.com/736x/7d/95/6a/7d956a18a2e4fa572a95206efc4fe3a0.jpg",
-    category: "Baby Shoot",
+    imageUrl: "https://i.postimg.cc/tgW500sV/DSC05549.jpg",
+    category: "Baby Shoot and Maternity",
   },
   {
-    imageUrl:
-      "https://i.pinimg.com/736x/a6/33/db/a633db1344685ae434bb7672f5a84d52.jpg",
-    category: "Baby Shoot",
+    imageUrl: "https://i.postimg.cc/gjSyymT1/DSC05489.jpg",
+    category: "Baby Shoot and Maternity",
   },
   {
-    imageUrl:
-      "https://i.pinimg.com/736x/a9/12/35/a91235fbbbeae6a77447cf339b6c3491.jpg",
-    category: "Baby Shoot",
-  },
-  // Wedding
-  {
-    imageUrl:
-      "https://i.pinimg.com/736x/40/1d/fd/401dfddc2f315f193c93b60689c668f0.jpg",
-    category: "Wedding",
+    imageUrl: "https://i.postimg.cc/hj01j9bD/DSC05513.jpg",
+    category: "Baby Shoot and Maternity",
   },
   {
-    imageUrl:
-      "https://i.pinimg.com/736x/0e/99/48/0e9948e8b4f8190b56188541bc5c6824.jpg",
-    category: "Wedding",
+    imageUrl: "https://i.postimg.cc/fTPjJWX9/DSC05387.jpg",
+    category: "Baby Shoot and Maternity",
   },
   {
-    imageUrl:
-      "https://i.pinimg.com/736x/2c/79/49/2c7949bb2d7c00a4bb6e3864e92431c4.jpg",
-    category: "Wedding",
+    imageUrl: "https://i.postimg.cc/jj0H48Mq/DSC05370.jpg",
+    category: "Baby Shoot and Maternity",
   },
   {
-    imageUrl:
-      "https://i.pinimg.com/736x/40/1d/fd/401dfddc2f315f193c93b60689c668f0.jpg",
-    category: "Wedding",
+    imageUrl: "https://i.postimg.cc/g0VvSv7V/DSC04217.jpg",
+    category: "Baby Shoot and Maternity",
   },
   {
-    imageUrl:
-      "https://i.pinimg.com/736x/e0/88/7c/e0887c3480cfc11cd908584abef5f12e.jpg",
-    category: "Wedding",
+    imageUrl: "https://i.postimg.cc/SsZY3VfM/DSC00179.jpg",
+    category: "Baby Shoot and Maternity",
   },
   {
-    imageUrl:
-      "https://i.pinimg.com/736x/2f/93/f8/2f93f855f5824049f80d3b5c60647f13.jpg",
-    category: "Wedding",
+    imageUrl: "https://i.postimg.cc/tJYnjPBm/DSC00430.jpg",
+    category: "Baby Shoot and Maternity",
   },
+
+  {
+    imageUrl: "https://i.postimg.cc/wxGskfvK/1997.jpg",
+    category: "Baby Shoot and Maternity",
+  },
+  {
+    imageUrl: "https://i.postimg.cc/sxNHJt6H/1995.jpg",
+    category: "Baby Shoot and Maternity",
+  },
+  {
+    imageUrl: "https://i.postimg.cc/QxvnKZWH/1992.jpg",
+    category: "Baby Shoot and Maternity",
+  },
+  {
+    imageUrl: "https://i.postimg.cc/JhL6K3x8/29.jpg",
+    category: "Baby Shoot and Maternity",
+  },
+  {
+    imageUrl: "https://i.postimg.cc/ZRqLDwyG/28.jpg",
+    category: "Baby Shoot and Maternity",
+  },
+
   // Haldi
   {
     imageUrl:
@@ -129,37 +199,6 @@ const allImages = [
       "https://i.pinimg.com/736x/d8/7e/b6/d87eb629793c31e4c5f6ee4e943b2d03.jpg",
     category: "Haldi",
   },
-  // Prewedding
-  {
-    imageUrl:
-      "https://i.pinimg.com/736x/40/13/2a/40132a79d7927e552319e0cc921194d8.jpg",
-    category: "Prewedding",
-  },
-  {
-    imageUrl:
-      "https://i.pinimg.com/736x/f2/89/81/f289810ccc03cca40b06eacd89177137.jpg",
-    category: "Prewedding",
-  },
-  {
-    imageUrl:
-      "https://i.pinimg.com/736x/5b/c4/1c/5bc41c7f3f1984f66cd03695b01ee06a.jpg",
-    category: "Prewedding",
-  },
-  {
-    imageUrl:
-      "https://i.pinimg.com/736x/69/32/e6/6932e6ceb852fa0bb447606f87e5f955.jpg",
-    category: "Prewedding",
-  },
-  {
-    imageUrl:
-      "https://i.pinimg.com/736x/5b/4c/7a/5b4c7afe5f80febbbd8493534af695ac.jpg",
-    category: "Prewedding",
-  },
-  {
-    imageUrl:
-      "https://i.pinimg.com/736x/18/52/d1/1852d1ab75d830955c8c1e37936bacf0.jpg",
-    category: "Prewedding",
-  },
 ];
 
 // Dynamically get distinct categories
@@ -189,7 +228,7 @@ const itemVariants = {
 
 const LatestWork = () => {
   const galleryWelcomePackage = {
-    backgroundImage: "https://i.postimg.cc/3NpLHPD6/IMG-2138.jpg",
+    backgroundImage: "https://i.postimg.cc/JhL6K3x8/29.jpg",
     title: "Explore Our Gallery",
     subtitle: "Gallery",
     showWelcome: true,
@@ -267,7 +306,6 @@ const LatestWork = () => {
                 onClick={() => setSelectedImage(imageUrl)}
                 className="latestwork-image"
                 variants={itemVariants}
-                whileHover={{ scale: 1.05 }}
                 loading="lazy"
               />
             ))}
@@ -291,7 +329,7 @@ const LatestWork = () => {
               >
                 <img src={selectedImage} alt="Selected work" />
                 <a
-                  href="https://www.instagram.com/livyoungphotography/"
+                  href="https://www.instagram.com/hariventapalli/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="instagram-link"

@@ -38,7 +38,10 @@ const Footer = () => {
         >
           <FaInstagram />
         </a>
-        <a href="#" aria-label="Facebook">
+        <a
+          href="https://www.facebook.com/p/Storeis-by-Hari-ventapalli-100069387847299/"
+          aria-label="Facebook"
+        >
           <FaFacebookF />
         </a>
         <a href="#" aria-label="Twitter / X">
@@ -47,7 +50,10 @@ const Footer = () => {
         <a href="#" aria-label="Pinterest">
           <FaPinterestP />
         </a>
-        <a href="#" aria-label="YouTube">
+        <a
+          href="https://www.youtube.com/@storiesbyhariventapalli6627"
+          aria-label="YouTube"
+        >
           <FaYoutube />
         </a>
       </div>

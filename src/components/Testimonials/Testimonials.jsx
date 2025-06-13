@@ -70,7 +70,7 @@ const cardVariants = {
 
 const Testimonials = () => {
   const testimonialWelcomePackage = {
-    backgroundImage: "https://i.postimg.cc/jS7tW5Yn/IMG-2238.jpg",
+    backgroundImage: "https://i.postimg.cc/pLqvD7Wz/24.jpg",
     title: "See what our clients say",
     subtitle: "Testimonials",
     showWelcome: true,

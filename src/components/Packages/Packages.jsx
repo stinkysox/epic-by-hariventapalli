@@ -9,7 +9,7 @@ import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 const Packages = () => {
   // Custom welcome configuration for packages page
   const packagesWelcomeConfig = {
-    backgroundImage: "https://i.postimg.cc/X7Yg76W5/IMG-2247.jpg", // Replace with your desired image
+    backgroundImage: "https://i.postimg.cc/w38Zp566/20.jpg", // Replace with your desired image
     title: "Discover Our Wedding Packages",
     subtitle: "EXPLORE",
     showWelcome: true,
@@ -30,9 +30,7 @@ const Packages = () => {
           "Designed for couples who value timeless, sophisticated photography.",
         ],
       },
-      price: "Starts from ₹2,50,000 /- per event.",
-      image:
-        "https://i.pinimg.com/736x/d1/b2/9a/d1b29ab5af59f15a30268fd88ba0ed44.jpg",
+      image: "https://i.postimg.cc/Bbks114y/18.jpg",
       imageAlt: "Couple on elegant staircase with flowers",
       reverse: false,
     },
@@ -50,9 +48,7 @@ const Packages = () => {
           "A luxury wedding film that feels like a movie, not just a highlight reel",
         ],
       },
-      price: "Starts from ₹2,50,000 /- per event.",
-      image:
-        "https://i.pinimg.com/736x/02/3d/46/023d46717a78d03569cfc7094ad1adb1.jpg",
+      image: "https://i.postimg.cc/m2ktzQNd/9.jpg",
       imageAlt: "Intimate couple moment in golden light",
       reverse: true,
     },
@@ -70,9 +66,7 @@ const Packages = () => {
           "Adds a personal, storytelling touch to your wedding album and film",
         ],
       },
-      price: "Starts from ₹3,00,000 /-",
-      image:
-        "https://i.pinimg.com/736x/52/5a/84/525a845546e418faa852f9c7b5ddc11a.jpg",
+      image: "https://i.postimg.cc/ZRYTkSwf/16.jpg",
       imageAlt: "Couple in warm sunset light",
       reverse: false,
     },
@@ -91,8 +85,7 @@ const Packages = () => {
         ],
       },
       addOns: "Add-ons available upon consultation",
-      image:
-        "https://i.pinimg.com/736x/05/5d/5c/055d5c970e0ecc95fd91bcdf7a320d28.jpg",
+      image: "https://i.postimg.cc/x8RMfnQc/1.jpg",
       imageAlt: "Couple in dramatic snowy scene",
       reverse: true,
     },
@@ -301,16 +294,6 @@ const Packages = () => {
                         <em>{pkg.addOns}</em>
                       </motion.div>
                     )}
-                  </motion.div>
-                )}
-                {pkg.price && (
-                  <motion.div
-                    className="package-price"
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.9 }}
-                  >
-                    <em>{pkg.price}</em>
                   </motion.div>
                 )}
               </motion.div>

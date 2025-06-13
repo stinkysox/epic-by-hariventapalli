@@ -7,45 +7,45 @@ const MarqueeImages = () => {
   const categories = {
     "Right Images": [
       {
-        imageUrl: "https://i.postimg.cc/BbDWQ6pQ/IMG-2279.jpg",
+        imageUrl: "https://i.postimg.cc/d34ZM6RC/3.jpg",
         category: "Right Images",
       },
       {
-        imageUrl: "https://i.postimg.cc/VNTHrwdS/IMG-2106.jpg",
+        imageUrl: "https://i.postimg.cc/bYTt2YXv/3days-copy-copy.jpg",
         category: "Right Images",
       },
       {
-        imageUrl: "https://i.postimg.cc/rsg14GQh/424A6781.jpg",
+        imageUrl: "https://i.postimg.cc/Dyp4BCwk/5.jpg",
         category: "Right Images",
       },
       {
-        imageUrl: "https://i.postimg.cc/mDyCxNfb/IMG-0981.jpg",
+        imageUrl: "https://i.postimg.cc/NFJFCMY7/8.jpg",
         category: "Right Images",
       },
       {
-        imageUrl: "https://i.postimg.cc/5tMXxYmj/IMG-0982.jpgg",
+        imageUrl: "https://i.postimg.cc/m2ktzQNd/9.jpg",
         category: "Right Images",
       },
     ],
     "Left Images": [
       {
-        imageUrl: "https://i.postimg.cc/PqLSk72d/IMG-2052-2.jpg",
+        imageUrl: "https://i.postimg.cc/02yJGgx0/4.jpg",
         category: "Left Images",
       },
       {
-        imageUrl: "https://i.postimg.cc/7PQb5QNF/IMG-1244.jpg",
+        imageUrl: "https://i.postimg.cc/cHWvr2XY/6.jpg",
         category: "Left Images",
       },
       {
-        imageUrl: "https://i.postimg.cc/Yq593GZ8/IMG-1248.jpg",
+        imageUrl: "https://i.postimg.cc/QdWCShz1/12.jpg",
         category: "Left Images",
       },
       {
-        imageUrl: "https://i.postimg.cc/SsPqxHpV/IMG-1943.jpg",
+        imageUrl: "https://i.postimg.cc/ZRYTkSwf/16.jpg",
         category: "Left Images",
       },
       {
-        imageUrl: "https://i.postimg.cc/sDRq43K7/IMG-2277.jpg",
+        imageUrl: "https://i.postimg.cc/Bbks114y/18.jpg",
         category: "Left Images",
       },
     ],
