@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 
 const TeasersSection = () => {
   const teasersWelcomePackage = {
-    backgroundImage: "https://i.postimg.cc/3R3QLRgc/IMG-1943-1.jpg",
+    backgroundImage: "https://i.postimg.cc/y8VB3BH7/21.jpg",
     title: "Explore Our Films",
     subtitle: "Films",
     showWelcome: true,
